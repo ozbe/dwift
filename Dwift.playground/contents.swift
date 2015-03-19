@@ -14,7 +14,7 @@ class Paths {
     static let sendSubpath = transactionsSubpath + "/send"
 }
 
-class ErrorMesages {
+class ErrorMessages {
     static let InvalidAccessToken = "Invalid access token"
     static let InsufficientBalance = "Insufficient balance"
     static let InvalidAccountPin = "Invalid account PIN"
@@ -52,7 +52,7 @@ enum TransactionStatus {
     case Reclaimed
 }
 
-enum TransactionTypes {
+enum TransactionType {
     case MoneySent
     case MoneyReceived
     case Deposit
